@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System for Dynamic Interactions">
+    <meta name="keywords"
+          content="multi-modal dialogue systems">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M3C</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PYVRSFMDRL');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <link rel="stylesheet" href="./static/css/index-gradio.css">
+    <link rel="stylesheet" href="./static/css/live_theme.css">
+
+    <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">Enabling Chatbots with Eyes and Ears:<br>An Immersive Multimodal Conversation System for Dynamic Interactions</h1>
+                    <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://wlgud2757.github.io/">Jihyoung Jang</a><sup>1*</sup></span>,
+                        <span class="author-block">
+              <a href="https://minwook09.github.io/">Minwook Bae</a><sup>2*</sup></span>,
+                        <span class="author-block">
+              <a href="https://www.linkedin.com/in/minji-kim-0b0749366/">Minji Kim</a><sup>1</sup></span>,
+                        <span class="author-block">
+              <a href="https://siebelschool.illinois.edu/about/people/faculty/dilek">Dilek Hakkani-Tür</a><sup>3</sup></span>,
+                        <span class="author-block">
+              <a href="https://hyounghk.github.io/">Hyounghun Kim</a><sup>1</sup>
+            </span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+            <small><span class="author-block"><sup>1</sup>POSTECH, <sup>2</sup>UNIST, <sup>3</sup>UIUC, <sup>*</sup>Equal contribution.</small>
+                <br>Proceedings of ACL 2025</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                <span class="link-block">
+                        <a href="" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="ai ai-arxiv"></i>
+                            </span>
+                            <span>arXiv</span>
+                        </a>
+                    </span>
+
+                            <span class="link-block">
+                        <a href="" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                    </span>
+
+                            <span class="link-block">
+                        <a href="" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fas fa-database"></i>
+                            </span>
+                            <span>Dataset</span>
+                        </a>
+                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        As chatbots continue to evolve toward human-like, real-world, interactions, multimodality remains an active area of research and exploration.
+                        So far, efforts to integrate multimodality into chatbots have primarily focused on image-centric tasks, such as visual dialogue and image-based instructions,
+                        placing emphasis on the "eyes" of human perception while neglecting the "ears", namely auditory aspects.
+                        Moreover, these studies often center around static interactions that focus on discussing the modality rather than naturally incorporating it into the conversation, which limits the richness of simultaneous, dynamic engagement.
+                        Furthermore, while multimodality has been explored in multi-party and multi-session conversations, task-specific constraints have hindered its seamless integration into dynamic, natural conversations.
+                        To address these challenges, this study aims to equip chatbots with "eyes and ears" capable of more immersive interactions with humans.
+                        As part of this effort, we introduce a new multimodal conversation dataset, Multimodal Multi-Session Multi-Party Conversation (M3C), and propose a novel multimodal conversation model featuring multimodal memory retrieval.
+                        Our model, trained on the M3C, demonstrates the ability to seamlessly engage in long-term conversations with multiple speakers in complex, real-world-like settings, effectively processing visual and auditory inputs to understand and respond appropriately.
+                        Human evaluations highlight the model’s strong performance in maintaining coherent and dynamic interactions, demonstrating its potential for advanced multimodal conversational agents.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Coming Soon!</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p style="text-align: center;">Enabling Chatbots with Eyes and Ears:< An Immersive Multimodal Conversation System for Dynamic Interactions<br>
+                        Jihyoung Jang, Minwook Bae, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim<br>Proceedings of ACL 2025
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
