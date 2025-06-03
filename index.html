@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="description"
           content="Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System for Dynamic Interactions">
-    <meta name="keywords"
-          content="multi-modal dialogue systems">
+    <meta name="keywords" content="multi-modal dialogue systems">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>M3C</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <!-- <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/954/954591.png"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
@@ -23,15 +33,13 @@
         gtag('config', 'G-PYVRSFMDRL');
     </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
     <link rel="stylesheet" href="./static/css/bulma.min.css">
     <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
 
     <link rel="stylesheet" href="./static/css/index-gradio.css">
@@ -45,6 +53,7 @@
     <script src="./static/js/bulma-slider.min.js"></script>
     <script src="./static/js/index.js"></script>
 </head>
+
 <body>
 
 <section class="hero">
@@ -52,57 +61,61 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title">Enabling Chatbots with Eyes and Ears:<br>An Immersive Multimodal Conversation System for Dynamic Interactions</h1>
+                    <h1 class="title is-1 publication-title">Enabling Chatbots with Eyes and Ears:<br>An Immersive
+                        Multimodal Conversation System for Dynamic Interactions</h1>
                     <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://wlgud2757.github.io/">Jihyoung Jang</a><sup>1*</sup></span>,
+                            <span class="author-block">
+                                <a href="https://wlgud2757.github.io/">Jihyoung Jang</a><sup>1*</sup></span>,
                         <span class="author-block">
-              <a href="https://minwook09.github.io/">Minwook Bae</a><sup>2*</sup></span>,
+                                <a href="https://minwook09.github.io/">Minwook Bae</a><sup>2*</sup></span>,
                         <span class="author-block">
-              <a href="https://www.linkedin.com/in/minji-kim-0b0749366/">Minji Kim</a><sup>1</sup></span>,
+                                <a href="https://www.linkedin.com/in/minji-kim-0b0749366/">Minji
+                                    Kim</a><sup>1</sup></span>,
                         <span class="author-block">
-              <a href="https://siebelschool.illinois.edu/about/people/faculty/dilek">Dilek Hakkani-Tür</a><sup>3</sup></span>,
+                                <a href="https://siebelschool.illinois.edu/about/people/faculty/dilek">Dilek
+                                    Hakkani-Tür</a><sup>3</sup></span>,
                         <span class="author-block">
-              <a href="https://hyounghk.github.io/">Hyounghun Kim</a><sup>1</sup>
-            </span>
+                                <a href="https://hyounghk.github.io/">Hyounghun Kim</a><sup>1</sup>
+                            </span>
                     </div>
 
                     <div class="is-size-5 publication-authors">
-            <small><span class="author-block"><sup>1</sup>POSTECH, <sup>2</sup>UNIST, <sup>3</sup>UIUC, <sup>*</sup>Equal contribution.</small>
-                <br>Proceedings of ACL 2025</span>
+                        <small><span class="author-block"><sup>1</sup>POSTECH, <sup>2</sup>UNIST, <sup>3</sup>UIUC,
+                                    <sup>*</sup>Equal contribution.</small>
+                        <br>Proceedings of ACL 2025</span>
                     </div>
 
                     <div class="column has-text-centered">
                         <div class="publication-links">
-                <span class="link-block">
-                        <a href="https://arxiv.org/abs/2506.00421" target="_blank"
-                           class="external-link button is-normal is-rounded is-dark">
-                            <span class="icon">
-                                <i class="ai ai-arxiv"></i>
-                            </span>
-                            <span>arXiv</span>
-                        </a>
-                    </span>
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2506.00421" target="_blank"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
 
                             <span class="link-block">
-                        <a href="https://github.com/m3c-dataset/M3C" target="_blank"
-                           class="external-link button is-normal is-rounded is-dark">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>Code</span>
-                        </a>
-                    </span>
+                                    <a href="https://github.com/m3c-dataset/M3C" target="_blank"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
 
                             <span class="link-block">
-                        <a href="https://huggingface.co/datasets/jihyoung/M3C" target="_blank"
-                           class="external-link button is-normal is-rounded is-dark">
-                            <span class="icon">
-                                <i class="fas fa-database"></i>
-                            </span>
-                            <span>Dataset</span>
-                        </a>
-                    </span>
+                                    <a href="https://huggingface.co/datasets/jihyoung/M3C" target="_blank"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-database"></i>
+                                        </span>
+                                        <span>Dataset</span>
+                                    </a>
+                                </span>
 
                         </div>
 
@@ -121,15 +134,33 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        As chatbots continue to evolve toward human-like, real-world, interactions, multimodality remains an active area of research and exploration.
-                        So far, efforts to integrate multimodality into chatbots have primarily focused on image-centric tasks, such as visual dialogue and image-based instructions,
-                        placing emphasis on the "eyes" of human perception while neglecting the "ears", namely auditory aspects.
-                        Moreover, these studies often center around static interactions that focus on discussing the modality rather than naturally incorporating it into the conversation, which limits the richness of simultaneous, dynamic engagement.
-                        Furthermore, while multimodality has been explored in multi-party and multi-session conversations, task-specific constraints have hindered its seamless integration into dynamic, natural conversations.
-                        To address these challenges, this study aims to equip chatbots with "eyes and ears" capable of more immersive interactions with humans.
-                        As part of this effort, we introduce a new multimodal conversation dataset, Multimodal Multi-Session Multi-Party Conversation (M3C), and propose a novel multimodal conversation model featuring multimodal memory retrieval.
-                        Our model, trained on the M3C, demonstrates the ability to seamlessly engage in long-term conversations with multiple speakers in complex, real-world-like settings, effectively processing visual and auditory inputs to understand and respond appropriately.
-                        Human evaluations highlight the model’s strong performance in maintaining coherent and dynamic interactions, demonstrating its potential for advanced multimodal conversational agents.
+                        As chatbots continue to evolve toward human-like, real-world, interactions, multimodality
+                        remains an active area of research and exploration.
+                        So far, efforts to integrate multimodality into chatbots have primarily focused on
+                        image-centric tasks, such as visual dialogue and image-based instructions,
+                        placing emphasis on the "eyes" of human perception while neglecting the "ears", namely
+                        auditory aspects.
+                        Moreover, these studies often center around static interactions that focus on discussing the
+                        modality rather than naturally incorporating it into the conversation, which limits the
+                        richness of simultaneous, dynamic engagement.
+                        Furthermore, while multimodality has been explored in multi-party and multi-session
+                        conversations, task-specific constraints have hindered its seamless integration into
+                        dynamic, natural conversations.
+                        To address these challenges, this study aims to equip chatbots with "eyes and ears" capable
+                        of more immersive interactions with humans.
+                        As part of this effort, we introduce a new multimodal conversation dataset,
+                        <strong>M</strong>ultimodal
+                        <strong>M</strong>ulti-Session <strong>M</strong>ulti-Party <strong>C</strong>onversation
+                        (<strong>M<sup>3</sup>C</strong>), and propose a
+                        novel multimodal conversation
+                        model featuring multimodal memory retrieval.
+                        Our model, trained on the <strong>M<sup>3</sup>C</strong>, demonstrates the ability to
+                        seamlessly engage in long-term
+                        conversations with multiple speakers in complex, real-world-like settings, effectively
+                        processing visual and auditory inputs to understand and respond appropriately.
+                        Human evaluations highlight the model’s strong performance in maintaining coherent and
+                        dynamic interactions, demonstrating its potential for advanced multimodal conversational
+                        agents.
                     </p>
                 </div>
             </div>
@@ -138,11 +169,356 @@
     </div>
 </section>
 
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <center>
+                <img src="./static/images/main.png" alt="Teaser" width="80%">
+            </center>
+            <div class="content has-text-justified mt-4">
+                A sample of our <strong>M<sup>3</sup>C</strong>. The main speaker (Alex) engages in conversation
+                with two different
+                partners per session, where all speakers simultaneously experience the provided multimodal inputs in
+                a shared
+                environment. At the end of each session, the main speaker collects each partner’s memory from their
+                own perspective
+                and utilizes this information to guide the conversation in subsequent sessions. In later sessions,
+                Alex can
+                encounter new partners and continue the interaction. The memories referenced when generating
+                utterances are marked
+                with symbols, where shared or connected memories are indicated by the same symbol.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="hero-body has-text-centered">
+        <h2 class="title is-1 mmmu">
+            <!-- <img src="static/images/mmmu_icon2.png" alt="Logo" class="mmmu-logo"/> -->
+            <span class="mmmu">Dataset Comparision</span>
+        </h2>
+    </div>
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <!-- <h2 class="title is-3">Dataset Comparision</h2> -->
+                <div class="content has-text-justified mt-4">
+                    We propose <strong>M<sup>3</sup>C</strong>, a machine-generated multimodal conversation dataset
+                    uniquely designed for multi-session, multi-speaker, and multimodal (image & audio) interactions.
+                    Unlike previous datasets that typically support only single-session or two-speaker
+                    conversations, <strong>M<sup>3</sup>C</strong> features:
+                    <ul>
+                        <li><strong>Three sessions per episode</strong>, capturing temporal continuity,</li>
+                        <li><strong>Four speakers per episode</strong>, enabling diverse partner interactions,</li>
+                        <li><strong>Both image and audio modalities</strong>, grounding conversations in shared
+                            perceptual context.
+                        </li>
+                    </ul>
+                    Our dataset contains <strong>54K episodes</strong> and <strong>2.5M dialogue turns</strong>,
+                    significantly expanding the scale and depth of multimodal conversational benchmarks.
+                    The comparison below highlights how <strong>M<sup>3</sup>C</strong> differs from existing
+                    datasets across structure, modality, and scale.
+                </div>
+
+                <div class="table-container" style="overflow-x: auto;">
+                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth is-size-7">
+                        <thead>
+                        <tr>
+                            <th style="background-color:#dbeafe;">Datasets</th>
+                            <th style="background-color:#dbeafe;">Type</th>
+                            <th style="background-color:#dbeafe;">Multiple Sessions</th>
+                            <th style="background-color:#dbeafe;">Multiple Speakers</th>
+                            <th colspan="2" style="background-color:#bbf7d0;">Image (# of Images)</th>
+                            <th colspan="2" style="background-color:#fef08a;">Audio (# of Audios)</th>
+                            <th style="background-color:#fcd34d;"># of Sessions</th>
+                            <th style="background-color:#fcd34d;"># of Turns</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>AMI</td>
+                            <td>Open-Domain</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>✔</td>
+                            <td>-</td>
+                            <td>279</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>VisDial</td>
+                            <td>Modality-QA</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(120K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>123K</td>
+                            <td>2.4M</td>
+                        </tr>
+                        <tr>
+                            <td>MELD</td>
+                            <td>Open-Domain</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>-</td>
+                            <td>✔</td>
+                            <td>-</td>
+                            <td>1.4K</td>
+                            <td>13K</td>
+                        </tr>
+                        <tr>
+                            <td>ImageChat</td>
+                            <td>Modality-Centric</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(202K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>202K</td>
+                            <td>401K</td>
+                        </tr>
+                        <tr>
+                            <td>MMConv</td>
+                            <td>Modality-Centric</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(114K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>5.1K</td>
+                            <td>39.8K</td>
+                        </tr>
+                        <tr>
+                            <td>PhotoChat</td>
+                            <td>Open-Domain</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(10.9K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>12K</td>
+                            <td>156K</td>
+                        </tr>
+                        <tr>
+                            <td>MMDD</td>
+                            <td>Modality-Centric</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(13K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>17K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>MMDialog</td>
+                            <td>Modality-Centric</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(1.53M)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>1.08M</td>
+                            <td>4.92M</td>
+                        </tr>
+                        <tr>
+                            <td>MPCHAT</td>
+                            <td>Modality-Centric</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(153K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>15K</td>
+                            <td>42.5K</td>
+                        </tr>
+                        <tr>
+                            <td>Audio Dialogues</td>
+                            <td>Modality-QA</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>✔</td>
+                            <td>-</td>
+                            <td>163K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>MiSC</td>
+                            <td>Open-Domain</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>51K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>DialogCC</td>
+                            <td>Open-Domain</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(129.8K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>83K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>LOCOMO</td>
+                            <td>Open-Domain</td>
+                            <td>✔</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(2K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>1.7K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Stark</td>
+                            <td>Open-Domain</td>
+                            <td>✔</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>(900K)</td>
+                            <td>❌</td>
+                            <td></td>
+                            <td>500K</td>
+                            <td>-</td>
+                        </tr>
+                        <tr style="background-color: #fef3c7; font-weight: bold; color: #92400e;">
+                            <td>Ours</td>
+                            <td>Open-Domain</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>(24K)</td>
+                            <td>✔</td>
+                            <td>(73K)</td>
+                            <td>16K</td>
+                            <td>2.5M</td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="is-size-7 mt-2">
+                    <em>Type:</em> Modality-QA = question-answering, Modality-Centric = modality-centered (e.g.,
+                    image/audio), Open-Domain = general conversation. <br>
+                    <em>Note:</em> '-' means unreported data.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="hero is-small">
+    <div class="hero-body has-text-centered">
+        <h2 class="title is-1 mmmu">
+            <!-- <img src="static/images/mmmu_icon2.png" alt="Logo" class="mmmu-logo"/> -->
+            <span class="mmmu">Model Architecture</span>
+        </h2>
+    </div>
+    <div class="hero-body">
+        <div class="container">
+
+            <div class="content has-text-justified mt-4">
+                We propose a multimodal, multi-session, multi-party conversation model that perceives both
+                <strong>images and audio</strong>—enabling the system to engage in conversations as if it has "eyes
+                and ears." The model is designed to maintain <strong>coherence across sessions</strong> while
+                interacting with different speakers in a shared environment.
+                <br>
+                Our architecture consists of two main modules:
+                <ul>
+                    <li>
+                        <strong>Dialogue Module</strong>: Generates responses grounded in the current multimodal
+                        context, constructs session memories, and links past interactions to maintain dialogue
+                        consistency.
+                    </li>
+                    <li>
+                        <strong>Retriever Module</strong>: Retrieves relevant <strong>multimodal
+                        memories</strong>—spanning <strong>image, audio, and text modalities</strong>—from prior
+                        sessions to inform ongoing conversations.
+                    </li>
+                </ul>
+                By integrating these modules, the model ensures temporally-aware, partner-sensitive, and
+                modality-grounded interactions.
+            </div>
+
+            <center>
+                <img src="./static/images/model_architecture.png" alt="Teaser" width="80%">
+            </center>
+        </div>
+</section>
+<section>
+    <div class="hero-body">
+        <div class="container">
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="hero-body has-text-centered">
+        <h2 class="title is-1 mmmu">
+            <!-- <img src="static/images/mmmu_icon2.png" alt="Logo" class="mmmu-logo"/> -->
+            <span class="mmmu">Examples of datasets and our model's responses
+                </span>
+        </h2>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+            <h2 class="title is-4">Each episode in the dataset consists of three sessions</a></h2>
+        </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">
+            <img id="teaser" width="30%" src="static/images/first_session.png">
+            <img id="teaser" width="30%" src="static/images/second_session.png">
+            <img id="teaser" width="30%" src="static/images/third_session.png">
+        </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+            <h2 class="title is-4">Live human chat examples comparing model responses to various modalities </h2>
+        </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+            <img id="teaser" width="30%" src="static/images/comparision_others_image.png">
+            <img id="teaser" width="34%" src="static/images/comparision_others_audio.png">
+        </div>
+    </div>
+
+</section>
 <section class="section">
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
-                <h2 class="title is-3">Coming Soon!</h2>
+                <h2 class="title is-3">More details coming soon!</h2>
             </div>
         </div>
     </div>
@@ -153,13 +529,15 @@
         <div class="columns is-centered">
             <div class="column is-8">
                 <div class="content">
-                    <p style="text-align: center;">Enabling Chatbots with Eyes and Ears:< An Immersive Multimodal Conversation System for Dynamic Interactions<br>
-                        Jihyoung Jang, Minwook Bae, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim<br>Proceedings of ACL 2025
+                    <p style="text-align: center;">Enabling Chatbots with Eyes and Ears:< An Immersive Multimodal
+                        Conversation System for Dynamic Interactions<br>
+                        Jihyoung Jang, Minwook Bae, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim<br>Proceedings of ACL
+                        2025
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-
 </body>
+</html>
